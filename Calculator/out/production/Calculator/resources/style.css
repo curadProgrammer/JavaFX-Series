@@ -1,0 +1,111 @@
+*{
+    -fx-text-fill: #fff;
+}
+
+.root{
+    -fx-background-color: #000;
+}
+
+/* label styles */
+.calculation-sqnce-label{
+    -fx-pref-width: 17.5em;
+    -fx-alignment: center-right;
+    -fx-font-size: 2em;
+    -fx-padding: 0.15em;
+}
+
+.output-label{
+    -fx-pref-width: 7.05em;
+    -fx-alignment: center-right;
+    -fx-font-size: 5em;
+    -fx-background-radius: 0.15em;
+    -fx-padding: 0.15em 0.15em 0 0;
+}
+
+/* button styles */
+.button{
+    -fx-min-width: 4.40em;
+    -fx-min-height: 2.45em;
+    -fx-font-size: 2em;
+    -fx-background-radius: 0.30em;
+    -fx-border-color: #000;
+}
+
+.button:hover{
+    -fx-opacity: 0.90;
+}
+
+.button:pressed{
+    -fx-opacity: 0.5;
+}
+
+/* row colored buttons */
+.button-row-0-primary-color{
+    -fx-background-color: #14213D;
+}
+
+.button-row-0-secondary-color{
+    -fx-background-color: #FCA311;
+}
+
+.button-row-1-primary-color{
+    -fx-background-color: #1B243B;
+}
+
+.button-row-1-secondary-color{
+    -fx-background-color: #E29D2B;
+}
+
+.button-row-2-primary-color{
+    -fx-background-color: #222638;
+}
+
+.button-row-2-secondary-color{
+    -fx-background-color: #C89645;
+}
+
+.button-row-3-primary-color{
+    -fx-background-color: #2A2936;
+}
+
+.button-row-3-secondary-color{
+    -fx-background-color: #AE905F;
+}
+
+.button-row-4-primary-color{
+    -fx-background-color: #312C34;
+}
+
+.button-row-4-secondary-color{
+    -fx-background-color: #948A79;
+}
+
+.button-row-5-primary-color{
+    -fx-background-color: #382E31;
+}
+
+.button-row-5-secondary-color{
+    -fx-background-color: #798394;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
