@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+*{
+    -fx-text-fill: #f5d5e0;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-font-family: 'Space Grotesk', sans-serif;
+}
+
+.button:hover{
+    -fx-opacity: 0.90;
+}
+
+.button:pressed{
+    -fx-opacity: 0.50;
+}
+
+/* title bar */
+#titleBar{
+    -fx-background-color: #2f1c3d;
+    -fx-pref-width: 540px;
+    -fx-pref-height: 35px;
+}
+
+#titleBar > .label{
+    -fx-alignment: baseline-left;
+    -fx-font-weight: 700;
+    -fx-pref-width: 450px;
+}
+
+#titleBar > .button{
+    -fx-font-size: 15.5px;
+    -fx-pref-width: 30px;
+    -fx-pref-height: 30px;
+    -fx-background-color: #2f1c3d;
+}
+
+#closeBtn:hover{
+    -fx-background-color: red !important;
+}
+
+#minBtn:hover{
+    -fx-background-color: gray !important;
+}
+
+/* menu */
+#mainMenu{
+    -fx-vgap: 40px;
+}
+
+#titleLabel{
+    -fx-font-size: 48px;
+    -fx-pref-width: 500px;
+    -fx-font-weight: 700;
+}
+
+#mainMenu > .button{
+    -fx-font-size: 24px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 60px;
+}
+
+#startBtn{
+    -fx-background-color: #7b337d;
+}
+
+#exitBtn{
+    -fx-background-color: #59255b;
+}
+
+/* game display */
+#gameDisplay{
+    -fx-vgap: 30px;
+}
+
+#gameDisplay > .label{
+    -fx-font-size: 36px;
+    -fx-pref-width: 540px;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+
+#userInputField{
+    -fx-background-color: #430d4b;
+    -fx-font-size: 48px;
+    -fx-max-width: 350px;
+    -fx-pref-height: 100px;
+    -fx-text-alignment: center;
+}
+
+#tryAgainBtn,
+#submitBtn{
+    -fx-background-color: #7b337d;
+    -fx-font-size: 24px;
+    -fx-pref-width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
